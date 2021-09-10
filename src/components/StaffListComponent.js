@@ -20,7 +20,7 @@ class StaffList extends Component {
     renderStaff(staff) {
         if(staff != null) {
             return (
-                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 bg-warning">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 bg-warning p-2">
                     <h3>Họ và tên: {staff.name}</h3>
                     <p>Ngày sinh: {dateFormat(staff.doB,"dd/mm/yyyy")} </p>
                     <p>Ngày vào công ty: {dateFormat(staff.startDate, "dd/mm/yyyy")} </p>
