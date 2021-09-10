@@ -141,5 +141,16 @@ export const STAFFS =
             annualLeave: 9,
             overTime: 10,
             image: '/assets/images/alberto.png',
+        },
+        {
+            id: 10,
+            name: "Nguyễn Văn G",
+            doB: "2000-01-01T08:59:00.000Z",
+            salaryScale: 1,
+            startDate: "2018-04-30T08:59:00.000Z",
+            department: DEPARTMENTS[1],
+            annualLeave: 2,
+            overTime: 6,
+            image: '/assets/images/alberto.png',
         }
     ]
