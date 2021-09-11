@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import StaffList from './components/StaffListComponent';
 import { STAFFS } from './shared/staffs';
 

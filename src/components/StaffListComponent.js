@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import dateFormat from 'dateformat';
 
-
+//created staffList component
 class StaffList extends Component {
     constructor(props) {
         super(props);
